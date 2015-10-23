@@ -15,12 +15,12 @@ public class MoreObjectsToStringHelper {
 		
 		String personToString = 
 				MoreObjects.toStringHelper(person)
-					.add("firstName", person.getFirstName())
-					.add("lastname", person.getLastName())
-					.add("city", person.getCity())
-					.add("state", person.getState())
-					.add("country", person.getCountry())
-					.toString();
+					   .add("firstName", person.getFirstName())
+					   .add("lastname", person.getLastName())
+					   .add("city", person.getCity())
+					   .add("state", person.getState())
+					   .add("country", person.getCountry())
+					   .toString();
 
 		System.out.println(personToString);
 		
